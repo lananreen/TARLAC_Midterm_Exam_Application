@@ -24,6 +24,6 @@ class ProductController extends Controller
                 'Genre' => 'Romance'
             ]
         ];
-        return view('products.index', compact('products'));
+        return view('products', compact('products'));
     }
 }

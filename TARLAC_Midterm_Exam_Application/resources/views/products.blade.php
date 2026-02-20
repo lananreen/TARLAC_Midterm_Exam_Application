@@ -6,9 +6,11 @@
 <body>
     <h1>Book Products</h1>
     @foreach ($products as $product)
-        <h2>Book Title: {{$product ['Title']}}</h2>
-        <p>Author: {{$product ['Author']}}</p>
-        <p>Genre: {{$product ['Genre']}}</p>
+        <ul>
+            <li>Book Title: {{$product ['Title']}}</li>
+            <li>Author: {{$product ['Author']}}</li>
+            <li>Genre: {{$product ['Genre']}}</li>
+        </ul>
     @endforeach
 </body>
 </html>
